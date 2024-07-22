@@ -6,7 +6,6 @@ import ca.ubc.cpsc210.alarm.model.exception.DuplicateSensorException;
  * Represents a sensor in the alarm system.
  */
 public class Sensor {
-	private static final int HASH_CONSTANT = 13;
 	private AlarmController ac;
 	private String location;
 	private boolean isOpen;
