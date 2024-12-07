@@ -183,7 +183,7 @@ class AlarmControllerUI extends JFrame {
 		AddCodeAction() {
 			super("Add Code");
 		}
-		
+		 
 		@Override
 		public void actionPerformed(ActionEvent evt) {
 			AlarmCode alarmCode = new AlarmCode(kp.getCode());
